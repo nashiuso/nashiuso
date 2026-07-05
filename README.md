@@ -15,7 +15,12 @@
   <samp>  -
     <i> <a href="https://github.com/nashiuso">github</a> </i> ,
     <i> <a href="mailto:stehpenderdealer@proton.me">mail</a> </i> ,
-    <i> <a href="https://whisper-tests.vercel.app/">fingerprint</a> </i> -
   </samp> 
 </p>
 </div>
+
+<!--
+---
+
+<sub> <i> <a href="https://whisper-tests.vercel.app/">check your fingerprint.</a> </i> </sub>
+-->
