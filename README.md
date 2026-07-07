@@ -18,6 +18,11 @@
   </samp> 
 </p>
 </div>
+<br><br>
+
+<sub>
+  
+*`> nashiuso/1.5 (X11; Linux x86_64; rv:1.0) Gecko/20260107`* </sub>
 
 <!--
 ---
