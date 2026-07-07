@@ -3,15 +3,21 @@
 
 <!-- Copyright (c) 2026, Nashi Uso, (嘘無し). -->
 
+<!--
+
 <img align="left" width="45" height="45" alt="image" src="https://github.com/user-attachments/assets/50cef241-aa2d-4217-acf3-77f0fe68eaad" />
-<p align="left"> 
-  
+<p align="left">
+
+-->
+
   <samp>
     <sub>嘘 無 し ,</sub><br>
     <b>Nashi&nbsp;&nbsp;Uso</b> .
   </samp>
 </p>
-
+<sub>
+  
+*`NUSO-71AF9C42Y26`* </sub>
 <div>
   <samp>  (
     <i> <a href="https://github.com/nashiuso">github</a> </i> ,
@@ -19,12 +25,11 @@
   </samp> 
 </p>
 </div>
+
 <br><br>
 
 <sub>
   
-*`> nashiuso/1.5 (X11; Linux x86_64; rv:1.0) Gecko/20260107`* </sub>
-
 <!-- 
 - [] https://whisper-tests.vercel.app
 - [] https://api.dicebear.com/10.x/thumbs/svg?seed=Nashi%20Uso%20%2C%20(%E5%98%98%E7%84%A1%E3%81%97)%20.
