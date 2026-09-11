@@ -1,11 +1,9 @@
-<div>
-
 <!-- Copyright (c) 2026, Nashi Uso, (嘘無し). -->
 
 <samp>
+  <img src="https://github.com/user-attachments/assets/74deeb5f-f876-4471-b29b-a33d2abd63be" align="right" height="150px">
   <sub> 嘘 無 し , </sub> <br>
-  <b> Nashi&nbsp;&nbsp;Uso </b> . <a href="https://github.com/nashiuso">
-  <img src="https://github.com/user-attachments/assets/e37a18f6-30e4-42ad-b7d1-899cec6e046d" align="right" height="150px">
+  <b> Nashi&nbsp;&nbsp;Uso </b> . <a href="https://github.com/nashiuso">  
 </a> <br> <br>
 
   ```
@@ -15,3 +13,4 @@
   ```
   
 </samp>
+
