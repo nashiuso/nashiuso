@@ -14,12 +14,11 @@
 <i><a href="mailto:80126k@proton.me">80126k@proton.me</a></i>
 </sub>
 
+<!--
 <br>
 <br>
 
 ---
-
-<!--
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/nashiuso/nashiuso/main/01.png" width="58">
