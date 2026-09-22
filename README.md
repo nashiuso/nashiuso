@@ -39,7 +39,7 @@
     <br /><br />
 
   <img
-        src="https://skillicons.dev/icons?i=html,css,react,nextjs,astro,tailwind,vite&theme=dark&perline=4"
+        src="https://skillicons.dev/icons?i=html,css,react,nextjs,astro,tailwind,vite,swift&theme=dark&perline=4"
         alt="Frontend"
       />
 
@@ -128,7 +128,7 @@
       <br /><br />
 
   <img
-        src="https://skillicons.dev/icons?i=linux,ubuntu,arch,debian,windows,bash,powershell&theme=dark&perline=4"
+        src="https://skillicons.dev/icons?i=ubuntu,debian,windows,bash&theme=dark&perline=4"
         alt="Systems"
       />
 
