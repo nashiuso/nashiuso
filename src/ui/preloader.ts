@@ -1,10 +1,10 @@
 import { skills } from '../data';
 
 export async function initPreloader(): Promise<void> {
-  const textEl = document.getElementById('preloader-text');
-  const preloader = document.getElementById('preloader');
+  const textEl     = document.getElementById('preloader-text');
+  const preloader  = document.getElementById('preloader');
   const textToType = 'NASHI USO';
-  let i = 0;
+  let i            = 0;
 
   const typePromise = new Promise<void>((resolve) => {
     function type() {
@@ -33,7 +33,7 @@ export async function initPreloader(): Promise<void> {
   await Promise.all([typePromise, document.fonts.ready, ...imagePromises]);
 
   const elapsedTime = Date.now() - startTime;
-  const minTime = 800;
+  const minTime     = 800;
   if (elapsedTime < minTime) {
     await new Promise((res) => setTimeout(res, minTime - elapsedTime));
   }
