@@ -8,4 +8,6 @@ allowBuilds:
 
 onlyBuiltDependencies:
   - esbuild
+  - dprint
+  - '@parcel/watcher'
   - '@biomejs/biome'
