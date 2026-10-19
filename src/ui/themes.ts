@@ -1,5 +1,5 @@
 /**
- * Nashiuso Terminal Portfolio
+ * Nashiuso Portfolio
  * Author: Nashiuso
  * GitHub: https://github.com/nashiuso
  * License: MIT
