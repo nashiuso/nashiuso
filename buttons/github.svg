@@ -4,5 +4,5 @@
   <rect x="1" y="1" width="158" height="38" fill="#231f29" stroke="#4c5aa8" stroke-width="2">
     <animate attributeName="stroke" values="#4c5aa8;#8190e0;#4c5aa8" dur="3s" begin="1.5s" repeatCount="indefinite" />
   </rect>
-  <text x="80" y="25" font-size="13" fill="#cfcfd8" text-anchor="middle" letter-spacing="2">[ EMAIL ]</text>
+  <text x="80" y="25" font-size="13" fill="#cfcfd8" text-anchor="middle" letter-spacing="2">[ GITHUB ]</text>
 </svg>
