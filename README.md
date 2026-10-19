@@ -13,6 +13,7 @@
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://skillicons.dev/icons?i=js&theme=dark" alt="JavaScript"></a>
 <a href="https://www.python.org/"><img src="https://skillicons.dev/icons?i=py&theme=dark" alt="Python"></a>
 <a href="https://dotnet.microsoft.com/en-us/languages/csharp"><img src="https://skillicons.dev/icons?i=cs&theme=dark" alt="C#"></a>
+<br>
 <a href="https://react.dev/"><img src="https://skillicons.dev/icons?i=react&theme=dark" alt="React"></a>
 <a href="https://nextjs.org/"><img src="https://skillicons.dev/icons?i=nextjs&theme=dark" alt="Next.js"></a>
 <a href="https://astro.build/"><img src="https://skillicons.dev/icons?i=astro&theme=dark" alt="Astro"></a>
@@ -22,8 +23,6 @@
 <a href="https://www.docker.com/"><img src="https://skillicons.dev/icons?i=docker&theme=dark" alt="Docker"></a>
 
 </div>
-
-<br>    <br>
 
 ---
 
