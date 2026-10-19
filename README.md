@@ -1,7 +1,6 @@
 <div align="center">
 
 <a href="./section/header.svg"><img src="./section/header.svg" width="830" alt="SIGNAL : 42.7 MBPS — THEME: RETRO"></a>
-
 <a href="https://nashiuso.surge.sh"><img src="./section/left.svg" width="330" alt="NU ->"></a><a href="https://github.com/nashiuso"><img src="./section/index.svg" width="496" alt="NASHI USO (嘘無し)"></a>
 
 <a href="https://github.com/nashiuso"><img src="./buttons/github.svg" width="160" alt="[ GITHUB ]"></a>
