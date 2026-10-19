@@ -20,8 +20,8 @@ export function initNetworkSim(): void {
 
   const connection = (navigator as unknown as { connection?: { downlink?: number } }).connection;
   const baseSpeed = connection?.downlink ? connection.downlink * 10 : 45.0;
-  let currentSpeed = baseSpeed;
-  let targetSpeed = baseSpeed;
+  let currentSpeed  = baseSpeed;
+  let targetSpeed   = baseSpeed;
 
   setInterval(() => {
     targetSpeed = baseSpeed + (Math.random() * 8 - 4);
