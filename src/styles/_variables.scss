@@ -5,31 +5,11 @@
  * License: MIT
  */
 
-@property --bg-container {
-  syntax: '<color>';
-  inherits: true;
-  initial-value: #25252b;
-}
-@property --color-primary {
-  syntax: '<color>';
-  inherits: true;
-  initial-value: #53589a;
-}
-@property --color-secondary {
-  syntax: '<color>';
-  inherits: true;
-  initial-value: #45455b;
-}
-@property --color-text {
-  syntax: '<color>';
-  inherits: true;
-  initial-value: #efefef;
-}
-@property --border-color {
-  syntax: '<color>';
-  inherits: true;
-  initial-value: #45455b;
-}
+@property --bg-container { syntax: '<color>'; inherits: true; initial-value: #25252B; }
+@property --color-primary { syntax: '<color>'; inherits: true; initial-value: #53589A; }
+@property --color-secondary { syntax: '<color>'; inherits: true; initial-value: #45455B; }
+@property --color-text { syntax: '<color>'; inherits: true; initial-value: #EFEFEF; }
+@property --border-color { syntax: '<color>'; inherits: true; initial-value: #45455B; }
 
 :root {
   --font-terminal: 'VT323', monospace;
@@ -38,21 +18,12 @@
   --radius-sm: 4px;
 }
 
-body,
-body[data-theme='blue'] {
-  --bg-body: #1a1a1e;
-  --bg-container: #25252b;
-  --color-primary: #53589a;
-  --color-secondary: #45455b;
-  --color-text: #efefef;
-  --border-color: #45455b;
+body, body[data-theme="blue"] {
+  --bg-body: #1A1A1E; --bg-container: #25252B; --color-primary: #53589A;
+  --color-secondary: #45455B; --color-text: #EFEFEF; --border-color: #45455B;
 }
 
-body[data-theme='retro'] {
-  --bg-body: #443e46;
-  --bg-container: #2a252b;
-  --color-primary: #ff5b60;
-  --color-secondary: #57659e;
-  --color-text: #f6deb8;
-  --border-color: #57659e;
+body[data-theme="retro"] {
+  --bg-body: #443E46; --bg-container: #2A252B; --color-primary: #FF5B60;
+  --color-secondary: #57659E; --color-text: #F6DEB8; --border-color: #57659E;
 }

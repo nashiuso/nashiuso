@@ -15,18 +15,16 @@ export function initClock(): void {
 }
 
 export function initNetworkSim(): void {
-  const netSpeedEl   = document.getElementById('net-speed');
+  const netSpeedEl = document.getElementById('net-speed');
   const signalFillEl = document.getElementById('signal-fill');
 
-  const connection = (
-    navigator as unknown as { connection?: { downlink?: number } }
-  ).connection;
+  const connection = (navigator as unknown as { connection?: { downlink?: number } }).connection;
   const baseSpeed = connection?.downlink ? connection.downlink * 10 : 45.0;
-
+  
   // biome-ignore format: alignment
-  let currentSpeed = baseSpeed;
+  let currentSpeed  = baseSpeed;
   // biome-ignore format: alignment
-  let targetSpeed = baseSpeed;
+  let targetSpeed   = baseSpeed;
 
   setInterval(() => {
     targetSpeed = baseSpeed + (Math.random() * 8 - 4);
@@ -37,8 +35,7 @@ export function initNetworkSim(): void {
     if (Math.abs(currentSpeed - targetSpeed) > 0.1) {
       currentSpeed += (targetSpeed - currentSpeed) * 0.1;
       if (netSpeedEl) netSpeedEl.textContent = currentSpeed.toFixed(1);
-      if (signalFillEl)
-        signalFillEl.style.width = `${(currentSpeed / 100) * 100}%`;
+      if (signalFillEl) signalFillEl.style.width = `${(currentSpeed / 100) * 100}%`;
     }
   }, 50);
 }
