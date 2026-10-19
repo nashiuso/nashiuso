@@ -15,13 +15,7 @@
     "singleLineBlockThreshold": 0,
     "formatComments": true
   },
-  "excludes": [
-    "**/node_modules/**",
-    "**/dist/**",
-    "**/pnpm-lock.yaml",
-    "**/README.md",
-    "**/*.svg"
-  ],
+  "excludes": ["**/node_modules/**", "**/dist/**", "**/pnpm-lock.yaml", "**/README.md", "**/*.svg"],
   "plugins": [
     "https://plugins.dprint.dev/typescript-0.96.1.wasm",
     "https://plugins.dprint.dev/json-0.25.0.wasm",
