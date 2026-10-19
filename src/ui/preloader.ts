@@ -1,17 +1,10 @@
-/**
- * Nashiuso Portfolio
- * Author: Nashiuso
- * GitHub: https://github.com/nashiuso
- * License: MIT
- */
-
 import { skills } from '../data';
 
 export async function initPreloader(): Promise<void> {
-  const textEl     = document.getElementById('preloader-text');
-  const preloader  = document.getElementById('preloader');
+  const textEl = document.getElementById('preloader-text');
+  const preloader = document.getElementById('preloader');
   const textToType = 'NASHI USO';
-  let i            = 0;
+  let i = 0;
 
   const typePromise = new Promise<void>((resolve) => {
     function type() {
@@ -30,7 +23,7 @@ export async function initPreloader(): Promise<void> {
     (skill) =>
       new Promise<void>((resolve) => {
         const img = new Image();
-        img.src = `https:
+        img.src = `https://skillicons.dev/icons?i=${skill.id}&theme=dark`;
         img.onload = () => resolve();
         img.onerror = () => resolve();
       }),
@@ -40,7 +33,7 @@ export async function initPreloader(): Promise<void> {
   await Promise.all([typePromise, document.fonts.ready, ...imagePromises]);
 
   const elapsedTime = Date.now() - startTime;
-  const minTime     = 800;
+  const minTime = 800;
   if (elapsedTime < minTime) {
     await new Promise((res) => setTimeout(res, minTime - elapsedTime));
   }
