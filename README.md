@@ -2,7 +2,7 @@
 
 <img src="./section/header.svg" width="830" alt="SIGNAL : 42.7 MBPS — THEME: RETRO">
 
-<img src="./section/left.svg" width="330" alt="NU ->"><img src="./index.svg" width="496" alt="NASHI USO (嘘無し)">
+<img src="./section/left.svg" width="330" alt="NU ->"><img src="./section/index.svg" width="496" alt="NASHI USO (嘘無し)">
 
 <a href="https://github.com/nashiuso"><img src="./buttons/github.svg" width="160" alt="[ GITHUB ]"></a>
 <a href="mailto:80126k@proton.me"><img src="./buttons/email.svg" width="160" alt="[ EMAIL ]"></a>
