@@ -20,7 +20,10 @@ export function initNetworkSim(): void {
 
   const connection = (navigator as unknown as { connection?: { downlink?: number } }).connection;
   const baseSpeed = connection?.downlink ? connection.downlink * 10 : 45.0;
+  
+  // biome-ignore format: alignment
   let currentSpeed  = baseSpeed;
+  // biome-ignore format: alignment
   let targetSpeed   = baseSpeed;
 
   setInterval(() => {
