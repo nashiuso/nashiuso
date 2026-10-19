@@ -13,11 +13,14 @@
     "preview": "vite preview",
     "test": "vitest run",
     "format:all": "biome check --write .",
-    "audit": "pnpm audit --audit-level=high"
+    "audit": "pnpm audit --audit-level=high",
+    "format:prettier": "prettier --write \"src/**/*.{ts,scss}\" \"vite.config.ts\" \"*.json\""
   },
   "devDependencies": {
     "@biomejs/biome": "2.5.15",
     "dprint": "^0.63.0",
+    "prettier": "^3.9.10",
+    "prettier-plugin-verticalize": "^1.1.2",
     "sass": "^1.105.2",
     "typescript": "^7.0.2",
     "vite": "^8.3.4",
