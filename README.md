@@ -40,20 +40,28 @@
 git clone https://github.com/nashiuso/nashiuso.git
 cd nashiuso
 pnpm install
+```
+
+<br>
 
 <div align="center">
+
 <a href="./section/usage.svg"><img src="./section/usage.svg" width="830" alt="02 USAGE"></a>
 
 </div>
-bash
+
+```bash
 pnpm dev        # dev server (Vite)
 pnpm build      # production build - dist/
 pnpm test       # unit tests (Vitest)
 pnpm lint       # lint & format (Biome)
+```
+
+<br>
 
 <div align="center">
+
 <a href="./section/about.svg"><img src="./section/about.svg" width="830" alt="04 ABOUT-ME"></a>
 <a href="./section/license.svg"><img src="./section/license.svg" width="830" alt="LICENSE: MIT / OPEN SOURCE"></a>
 
-</div> EOF
-
+</div>
