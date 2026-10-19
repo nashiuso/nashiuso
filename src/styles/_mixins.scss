@@ -4,6 +4,7 @@
  * GitHub: https://github.com/nashiuso
  * License: MIT
  */
+
 @mixin flex-center { display: flex; justify-content: center; align-items: center; }
 @mixin custom-scrollbar {
   &::-webkit-scrollbar { inline-size: 6px; }

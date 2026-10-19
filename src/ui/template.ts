@@ -4,6 +4,7 @@
  * GitHub: https://github.com/nashiuso
  * License: MIT
  */
+
 import { skills, topics } from '../data';
 
 export function renderTemplate(app: HTMLElement): void {
@@ -21,10 +22,10 @@ export function renderTemplate(app: HTMLElement): void {
 
       <div class="term-main">
         <section class="term-col-left">
-          
+
           <!-- Libreta limpia -->
           <div class="notepad-container">
-            <a href="https://github.com/nashiuso" target="_blank" rel="noopener noreferrer" class="logo-link">
+            <a href="https:
               <span class="logo-text">NU -></span>
             </a>
           </div>
@@ -36,7 +37,7 @@ export function renderTemplate(app: HTMLElement): void {
 
           <!-- Botones Retro Compactos -->
           <div class="retro-buttons">
-            <a href="https://github.com/nashiuso" target="_blank" rel="noopener noreferrer" class="btn-retro">[ GITHUB ]</a>
+            <a href="https:
             <a href="mailto:80126k@proton.me" class="btn-retro">[ EMAIL ]</a>
           </div>
         </section>
@@ -72,7 +73,7 @@ export function renderTemplate(app: HTMLElement): void {
               .map(
                 (skill) => `
               <a href="${skill.url}" target="_blank" rel="noopener noreferrer" class="skill-link" title="${skill.name}">
-                <img src="https://skillicons.dev/icons?i=${skill.id}&theme=dark" alt="" loading="lazy" />
+                <img src="https:
               </a>`,
               )
               .join('')}

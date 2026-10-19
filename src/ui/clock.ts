@@ -4,6 +4,7 @@
  * GitHub: https://github.com/nashiuso
  * License: MIT
  */
+
 export function initClock(): void {
   const clockEl = document.getElementById('clock');
   setInterval(() => {

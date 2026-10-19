@@ -4,6 +4,7 @@
  * GitHub: https://github.com/nashiuso
  * License: MIT
  */
+
 import { skills } from '../data';
 
 export async function initPreloader(): Promise<void> {
@@ -29,7 +30,7 @@ export async function initPreloader(): Promise<void> {
     (skill) =>
       new Promise<void>((resolve) => {
         const img = new Image();
-        img.src = `https://skillicons.dev/icons?i=${skill.id}&theme=dark`;
+        img.src = `https:
         img.onload = () => resolve();
         img.onerror = () => resolve();
       }),

@@ -4,6 +4,7 @@
  * GitHub: https://github.com/nashiuso
  * License: MIT
  */
+
 import type { Theme } from '../types';
 
 const THEMES: Theme[] = ['blue', 'retro'];

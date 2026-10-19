@@ -4,6 +4,7 @@
  * GitHub: https://github.com/nashiuso
  * License: MIT
  */
+
 import './styles/main.scss';
 import { initClock, initNetworkSim } from './ui/clock';
 import { initPreloader } from './ui/preloader';

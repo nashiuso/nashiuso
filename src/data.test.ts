@@ -4,6 +4,7 @@
  * GitHub: https://github.com/nashiuso
  * License: MIT
  */
+
 import { describe, expect, it } from 'vitest';
 import { skills, topics } from './data';
 
@@ -20,7 +21,7 @@ describe('Data Integrity Checks', () => {
     topics.forEach((topic) => {
       expect(topic.id).toBeDefined();
       expect(topic.name).toBeDefined();
-      expect(topic.url).toMatch(/^https?:\/\//);
+      expect(topic.url).toMatch(/^https?:\/\
       expect(topic.page).toMatch(/^P\.\d+$/);
     });
   });
@@ -29,7 +30,7 @@ describe('Data Integrity Checks', () => {
     skills.forEach((skill) => {
       expect(skill.id).toBeDefined();
       expect(skill.name).toBeDefined();
-      expect(skill.url).toMatch(/^https?:\/\//);
+      expect(skill.url).toMatch(/^https?:\/\
     });
   });
 });

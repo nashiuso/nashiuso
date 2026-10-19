@@ -1,0 +1,30 @@
+{
+  "lineWidth": 30,
+  "indentWidth": 8,
+  "useTabs": false,
+  "typescript": {
+    "quoteStyle": "preferSingle",
+    "semiColons": "always"
+  },
+  "json": {
+    "indentWidth": 4
+  },
+  "malva": {
+    "printWidth": 30,
+    "indentWidth": 8,
+    "singleLineBlockThreshold": 0,
+    "formatComments": true
+  },
+  "excludes": [
+    "**/node_modules/**",
+    "**/dist/**",
+    "**/pnpm-lock.yaml",
+    "**/README.md",
+    "**/*.svg"
+  ],
+  "plugins": [
+    "https://plugins.dprint.dev/typescript-0.96.1.wasm",
+    "https://plugins.dprint.dev/json-0.25.0.wasm",
+    "https://plugins.dprint.dev/gplane/malva-v0.16.0.wasm"
+  ]
+}
