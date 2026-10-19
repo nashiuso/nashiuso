@@ -1,0 +1,28 @@
+/**
+ * Nashiuso Terminal Portfolio
+ * Author: Nashiuso
+ * GitHub: https://github.com/nashiuso
+ * License: MIT
+ */
+@property --bg-container { syntax: '<color>'; inherits: true; initial-value: #25252B; }
+@property --color-primary { syntax: '<color>'; inherits: true; initial-value: #53589A; }
+@property --color-secondary { syntax: '<color>'; inherits: true; initial-value: #45455B; }
+@property --color-text { syntax: '<color>'; inherits: true; initial-value: #EFEFEF; }
+@property --border-color { syntax: '<color>'; inherits: true; initial-value: #45455B; }
+
+:root {
+  --font-terminal: 'VT323', monospace;
+  --font-mono: 'Share Tech Mono', monospace;
+  --border-width: 3px;
+  --radius-sm: 4px;
+}
+
+body, body[data-theme="blue"] {
+  --bg-body: #1A1A1E; --bg-container: #25252B; --color-primary: #53589A;
+  --color-secondary: #45455B; --color-text: #EFEFEF; --border-color: #45455B;
+}
+
+body[data-theme="retro"] {
+  --bg-body: #443E46; --bg-container: #2A252B; --color-primary: #FF5B60;
+  --color-secondary: #57659E; --color-text: #F6DEB8; --border-color: #57659E;
+}
