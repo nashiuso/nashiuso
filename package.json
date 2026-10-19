@@ -13,7 +13,8 @@
     "preview": "vite preview",
     "test": "vitest run",
     "format:all": "biome check --write .",
-    "audit": "pnpm audit --audit-level=high"
+    "audit": "pnpm audit --audit-level=high",
+    "format:align": "node -e \"import('./src/align.mjs')\""
   },
   "devDependencies": {
     "@biomejs/biome": "2.5.15",

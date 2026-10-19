@@ -15,11 +15,11 @@ export function initClock(): void {
 }
 
 export function initNetworkSim(): void {
-  const netSpeedEl = document.getElementById('net-speed');
+  const netSpeedEl   = document.getElementById('net-speed');
   const signalFillEl = document.getElementById('signal-fill');
 
   const connection = (navigator as unknown as { connection?: { downlink?: number } }).connection;
-  const baseSpeed = connection?.downlink ? connection.downlink * 10 : 45.0;
+  const baseSpeed  = connection?.downlink ? connection.downlink * 10 : 45.0;
   
   // biome-ignore format: alignment
   let currentSpeed  = baseSpeed;
