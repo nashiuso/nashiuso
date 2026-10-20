@@ -15,7 +15,8 @@
     "format:all": "biome check --write .",
     "audit": "pnpm audit --audit-level=high",
     "format:align": "node -e \"import('./src/align.mjs')\"",
-    "format": "biome check --write . && node scripts/align.mjs"
+    "format": "biome check --write . && node scripts/align.mjs",
+    "lint": "biome check ."
   },
   "devDependencies": {
     "@biomejs/biome": "2.5.15",
