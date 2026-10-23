@@ -1,4 +1,4 @@
-<div align="center">
+<!-- <div align="center">
 
 <a href="./section/header.svg"><img src="./section/header.svg" width="830" alt="SIGNAL : 42.7 MBPS — THEME: RETRO"></a>
 <a href="https://nashiuso.surge.sh"><img src="./section/left.svg" width="330" alt="NU ->"></a><a href="https://github.com/nashiuso"><img src="./section/index.svg" width="496" alt="NASHI USO (嘘無し)"></a>
@@ -63,3 +63,21 @@ pnpm lint       # lint & format (Biome)
 <a href="./section/license.svg"><img src="./section/license.svg" width="830" alt="LICENSE: MIT / OPEN SOURCE"></a>
 
 </div>
+-->
+
+<div align="center">
+
+```yml
+(10, 10) (70, 70, 72)
+(30, 100) (70, 69, 74)
+(50, 50) (12, 17, 20)
+(100, 50) (13, 14, 16)
+(300, 100) (16, 17, 19)
+(300, 150) (23, 24, 26)
+(400, 200) (13, 14, 16)
+(700, 500) (13, 14, 16)
+(180, 200) (15, 16, 18)
+(350, 300) (13, 14, 16)
+(600, 90) (29, 30, 32)
+(685, 490) (50, 32, 18)
+```
